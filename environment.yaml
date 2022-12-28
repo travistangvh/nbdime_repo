@@ -1,0 +1,16 @@
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9.13
+  - pip==22.2.2
+  - pip:
+    - pandas
+    - numpy
+    - ipykernel
+    - jupytext
+    - jupyterlab
+    - notebook
+    - nbdime
+    - matplotlib
+    - scikit-learn
+    - ipython_genutils
